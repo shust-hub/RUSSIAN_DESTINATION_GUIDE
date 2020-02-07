@@ -1,5 +1,14 @@
 .reasons_list{
-    padding-left: 25%;
+    max-width: 750px;
+    margin: 0 auto;
+    li {
+        list-style-type: none;
+        margin-bottom: 15px; 
+       }
+       ul {
+        margin-left: 0; 
+        padding-left: 0; 
+       }
     P:first-letter {
         -webkit-font-smoothing: antialiased;
         color: #c41c1e;

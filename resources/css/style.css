@@ -1,5 +1,16 @@
 .reasons_list {
-  padding-left: 25%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.reasons_list li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.reasons_list ul {
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .reasons_list P:first-letter {
