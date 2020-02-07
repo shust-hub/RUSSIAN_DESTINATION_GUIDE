@@ -1,0 +1,98 @@
+.reasons_list {
+  padding-left: 25%;
+}
+
+.reasons_list P:first-letter {
+  -webkit-font-smoothing: antialiased;
+  color: #c41c1e;
+  font-family: "Lato",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.tour_list_block {
+  margin-bottom: 30px;
+  background-color: #fff;
+  display: block;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  height: 300px;
+  position: relative;
+  padding: 3px;
+  overflow: hidden;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.tour_list_block img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 297px;
+}
+
+.tour_list_block .tour_list_desc {
+  background-color: #fff;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: -50px;
+  width: calc(100% - 3px);
+  height: 100px;
+}
+
+.tour_list_block .tour_list_desc h3 {
+  font-weight: bold;
+}
+
+.tour_list_block .tour_list_desc p {
+  margin-top: 25px;
+  color: black;
+}
+
+.tour_list_block:hover .tour_list_desc {
+  bottom: 0;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.tour_list_ul {
+  text-align: center;
+}
+
+.tour_list_ul li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.tour_list_ul ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.tour_form {
+  padding-bottom: 0;
+}
+
+.tour_form .form-group {
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.tour_form iframe {
+  width: 235px;
+  height: 45px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.tour_box_style {
+  padding-top: 45px;
+  height: 295px;
+}
+/*# sourceMappingURL=style.css.map */
