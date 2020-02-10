@@ -29,12 +29,15 @@
   font-size: 150%;
 }
 
-@media (max-width: 768px) {
-  .img-tour {
-    -o-object-fit: cover;
-    object-fit: cover;
-    height: 100%;
-  }
+.img_container {
+  max-height: 313px;
+}
+
+.img_container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .tour_list_ul {
