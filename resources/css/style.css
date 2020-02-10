@@ -7,8 +7,14 @@
 }
 
 .reasons_list {
-  max-width: 750px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: 0 auto;
+}
+
+.reasons_list .main_title {
+  text-align: left;
 }
 
 .reasons_list li {
@@ -19,6 +25,8 @@
 .reasons_list ul {
   margin-left: 0;
   padding-left: 0;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 
 .reasons_list P:first-letter {
@@ -52,6 +60,19 @@
 .tour_list_ul ul {
   margin-left: 0;
   padding-left: 0;
+}
+
+.tour_list_desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tour_form {
