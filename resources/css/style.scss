@@ -1,3 +1,12 @@
+@font-face {
+      font-family: 'fontello';
+      src: url('./fontello/font/fontello.woff');
+      src: url('./fontello/font/fontello.woff') format('woff'),
+           url('./fontello/font/icon_set_1.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
+
 .reasons_list{
     max-width: 750px;
     margin: 0 auto;
@@ -18,51 +27,59 @@
        }
 }
 
-.tour_list_block {
-    margin-bottom: 30px;
-    background-color: #fff;
-    display: block;
-    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
-    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
-    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
-    height: 300px;
-    position: relative;
-    padding: 3px;
-    overflow: hidden;
-
-    transition-timing-function: linear;
-    transition: .3s;
-    img {
-        width: 100%;
+@media (max-width: 768px) {
+    .img-tour{
+        -o-object-fit: cover;
         object-fit: cover;
-        height: 297px;
-    }
-    .tour_list_desc{
-        background-color: #fff;
-        padding: 10px 20px;
-        position: absolute;
-        bottom: -50px;
-        width: calc(100% - 3px);
-        height: 100px;
-        h3{
-            font-weight: bold;
-        }
-        p {
-            margin-top: 25px;
-            color: black;
-        }
-
-    }
-
-    &:hover{
-
-        .tour_list_desc{
-            bottom: 0;
-            transition-timing-function: linear;
-            transition: .3s; 
-        }
+        height: 100%;
     }
 }
+
+// .tour_list_block {
+//     margin-bottom: 30px;
+//     background-color: #fff;
+//     display: block;
+//     -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+//     -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+//     box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+//     height: 300px;
+//     position: relative;
+//     padding: 3px;
+//     overflow: hidden;
+
+//     transition-timing-function: linear;
+//     transition: .3s;
+//     img {
+//         width: 100%;
+//         object-fit: cover;
+//         height: 297px;
+//     }
+//     .tour_list_desc{
+//         background-color: #fff;
+//         padding: 10px 20px;
+//         position: absolute;
+//         bottom: -50px;
+//         width: calc(100% - 3px);
+//         height: 100px;
+//         h3{
+//             font-weight: bold;
+//         }
+//         p {
+//             margin-top: 25px;
+//             color: black;
+//         }
+
+//     }
+
+//     &:hover{
+
+//         .tour_list_desc{
+//             bottom: 0;
+//             transition-timing-function: linear;
+//             transition: .3s; 
+//         }
+//     }
+// }
 
 .tour_list_ul {
     text-align: center;
