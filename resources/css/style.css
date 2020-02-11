@@ -37,11 +37,11 @@
   font-size: 150%;
 }
 
-.img_container {
+.travelImg_container {
   max-height: 313px;
 }
 
-.img_container img {
+.travelImg_container img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -62,7 +62,7 @@
   padding-left: 0;
 }
 
-.tour_list_desc {
+.desc-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
