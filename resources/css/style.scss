@@ -7,22 +7,26 @@
       font-style: normal;
 }
 
+// <!-- REASONS TO TAKE A RUSSIAN VACATION IN 2020 -->
 .reasons_list{
     width: fit-content;
     margin: 0 auto;
     
-    .main_title {
+    .main_title--left{
       text-align: left;  
     }
+
     li {
         list-style-type: none;
         margin-bottom: 15px; 
        }
-       ul {
+
+    ul {
         margin-left: 0; 
         padding-left: 0; 
         padding-inline-start: 0;
        }
+
     P:first-letter {
         -webkit-font-smoothing: antialiased;
         color: #c41c1e;
@@ -32,37 +36,48 @@
        }
 }
 
-.travelImg_container{
+//////////////////////////////////////////////
+.img_container--travel{
     max-height: 313px;
     img{
         object-fit: cover;
         height: 100%; 
         width: 100%;  
     }
-
 }
 
-.tour_list_ul {
+.img_list--tour {
+    min-height: 258px;
+}
+
+.tour_list_desc--flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 257px;
+}
+
+///////////////////////////////////////////////
+
+
+// <!-- OTHER DESTINATIONS -->
+.tour_list--ul {
     text-align: center;
     li {
         list-style-type: none;
         margin-bottom: 15px; 
-       }
-       ul {
+    }
+    ul {
         margin-left: 0; 
         padding-left: 0; 
-       }
-}
-.desc-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    }
 }
 
+
+// <!-- FORM -->
 .tour_form div.inner {
     @media (max-width:576px) {
         padding: 25px 20px 10px 18px!important;
-        // border: 1px solid white;
      }
 }
 
@@ -78,11 +93,11 @@
         @media (max-width:767px) {
             margin-top: 10px;
          }
-        
     }
 }
 
-.tour_box_style {
+///WIDGETS///
+.box_style--height270 {
     height: 270px;
 }
 
