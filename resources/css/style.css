@@ -96,7 +96,7 @@
   margin-bottom: 5px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1999px) {
   .tour_form button {
     margin-top: 10px;
   }
