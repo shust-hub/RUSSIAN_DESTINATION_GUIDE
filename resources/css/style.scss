@@ -21,7 +21,7 @@
     width: 90%;
     @media (min-width: 576px) { width: 80%; }
 
-    @media (min-width: 992px) { width: 58%; }
+    @media (min-width: 992px) { width: 58%; padding-left: 15px; }
 
     P:first-letter {
         -webkit-font-smoothing: antialiased;
